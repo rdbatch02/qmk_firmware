@@ -98,18 +98,19 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
 
 void set_layer_color(int layer) {
     switch (layer) {
-        case 2:
+        case 2: // Win
             rgb_matrix_set_color_all(RGB_RED);
             break;
-        case 0:
+        case 0: // Mac
             rgb_matrix_set_color_all(RGB_AZURE);
             break;
-        default: // for any other layers, or the default layer
+        default: // Catch all, but really just FN layers
             rgb_matrix_set_color_all(RGB_PURPLE);
             break;
     }
 }
 
+// Uncomment for debugging, otherwise put any init code here
 void keyboard_post_init_user(void) {
 //   debug_enable=true;
 //   debug_matrix=true;
