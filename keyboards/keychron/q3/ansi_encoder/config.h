@@ -33,3 +33,5 @@
 
 /* Enable CapsLcok LED */
 #define CAPS_LOCK_LED_INDEX 50
+
+#define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_NONE

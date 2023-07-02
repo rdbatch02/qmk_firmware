@@ -18,7 +18,16 @@
         "xstddef": "c",
         "type_traits": "c",
         "utility": "c",
-        "ranges": "c"
+        "ranges": "c",
+        "__assert": "c",
+        "__config": "c",
+        "cstdio": "c",
+        "cwchar": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "ctime": "c",
+        "algorithm": "c",
+        "*.def": "c"
     },
     "[markdown]": {
         "editor.trimAutoWhitespace": false,
